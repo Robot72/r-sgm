@@ -50,18 +50,18 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-body link-block">
-                                <p><strong>Ответы на вопросы</strong></p>
+                                <p><a href="otvety.html"><strong>Ответы на вопросы</strong></a></p>
                                 <p><span class="glyphicon glyphicon-envelope"></span> <strong>E-mail sanogen@mail.ru</strong></p>
-                                <p><strong>СГМ в Интернете</strong></p>
-                                <p><strong>Форум СГМ</strong></p>
+                                <p><a href="SGM-v-Inete.html"><strong>СГМ в Интернете</strong></a></p>
+                                <p><a href="http://sanogen.ru/forum/viewforum.php?f=2"><strong>Форум СГМ</strong></a></p>
                             </div>
                         </div>
                         <div class="panel panel-warning">
                             <div class="panel-body">
-                                <p>В разделе <em>«Главная»</em> статью из психологической газеты "Мы и Мир": <strong>"Саногенное мышление — философия радости и благополучия"</strong>. — Москва, 2003.</p>
-                                <p>В разделе <em>«Публикации»</em> брошюру <strong>"Беседа о саногенном мышлении"</strong>. — Москва, 1999.</p>
-                                <p>В разделе <em>«Главная»</em> <strong>"Более полная биография Ю.М. Орлова"</strong>. — Москва, 1998.</p>
-                                <p>В разделе <em>«CГМ и общество»</em> брошюру Ю.М. Орлова <strong>"Структура прямого народовластия"</strong>. — Москва, 1996.</p>
+                                <p>В разделе <a href="index.html"><em>«Главная»</em></a> статью из психологической газеты "Мы и Мир": <a href="statya-rebenok-alexander-avg-2003g.html"><strong>"Саногенное мышление — философия радости и благополучия"</strong></a>. — Москва, 2003.</p>
+                                <p>В разделе <a href="publications.html"><em>«Публикации»</em></a> брошюру <a href="publications-beseda-ot-1999g.html"><strong>"Беседа о саногенном мышлении"</strong></a>. — Москва, 1999.</p>
+                                <p>В разделе <a href="biografija-big-.html"><em>«Главная»</em></a> <a href="biografija-big-.html"><strong>"Более полная биография Ю.М. Орлова"</strong></a>. — Москва, 1998.</p>
+                                <p>В разделе <a href="narodovlastie.html"><em>«CГМ и общество»</em></a> брошюру Ю.М. Орлова <a href="narodovlastie.html"><strong>"Структура прямого народовластия"</strong></a>. — Москва, 1996.</p>
                             </div>
                         </div>
                     </div>
