@@ -232,6 +232,19 @@
         </div>
     </div>
 <?php 
+    //Cтраница "Видео"
+    } else if ( !strcmp($uri, 'video.html') ) { ?>
+    <div class="vidios">
+        <h1>Орлов Ю.М. "Саногенное мышление (СГМ) — русский психоанализ?!
+            О дианетике и о прямом народовластии"</h1>
+    </div>
+<?php 
+    //Cтраница "Лекции"
+    } else if ( !strcmp($uri, 'lexio.html') ) { ?>
+    <div class="row">
+        
+    </div>
+<?php 
     //Cтраница ""
     } else if ( !strcmp($uri, 'a') ) { ?>
     <div class="">
