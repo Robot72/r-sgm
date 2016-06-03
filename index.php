@@ -10,7 +10,7 @@ if( empty($uri)  ) {
 }
 
 include_once('vendor/breadcrumbs_helper.php');
-include_once('Breadcrumbs.php');
+include_once('Generator.php');
 include_once('header.php');
 include_once('content.php');
 include_once('footer.php');
