@@ -31,20 +31,13 @@
                             <span class="icon-bar"></span>
                         </button>
                     </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html">Главная</a></li>
-                            <li><a href="news.html">Рекомендуем</a></li>
-                            <li><a href="books.html">Книги</a></li>
-                            <li><a href="videos.html">Видео</a></li>
-                            <li><a href="lexio.html">Лекции</a></li>
-                            <li><a href="publications.html">Публикации</a></li>
-                            <li><a href="KursSGM.html">Занятия</a></li>
-                            <li><a href="narodovlastie.html">СГМ и общество</a></li>
-                        </ul>                        
-                    </div><!--/.nav-collapse -->
+                    
+                    <?php Generator::navbar($uri) ?>
+                    
                 </div><!--/.container-fluid -->
-            </nav>
+            </nav>  
+            
+            <?php Generator::breadcrumbs($uri) ?>            
             
             <div class="content">
                 <div class="row">
