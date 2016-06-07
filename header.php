@@ -51,7 +51,7 @@
                         <div class="panel panel-default">
                             <div class="panel-body link-block">
                                 <p><a href="otvety.html"><strong>Ответы на вопросы</strong></a></p>
-                                <p><span class="glyphicon glyphicon-envelope"></span> <strong>E-mail sanogen@mail.ru</strong></p>
+                                <p><span class="glyphicon glyphicon-envelope"></span> <strong>E-mail <a href="mailto:sanogen@mail.ru">sanogen@mail.ru</a></strong></p>
                                 <p><a href="SGM-v-Inete.html"><strong>СГМ в Интернете</strong></a></p>
                                 <p><a href="http://sanogen.ru/forum/viewforum.php?f=2"><strong>Форум СГМ</strong></a></p>
                             </div>
