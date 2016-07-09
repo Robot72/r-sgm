@@ -94,7 +94,7 @@ class Generator
             <ul class="nav navbar-nav">
                 <li' . $item1 . '><a href="index.html">Главная</a></li>
                 <li' . $item2 . '><a href="news.html">Рекомендуем</a></li>
-                <li' . $item3.$item9.$item10.$item11.$item12.$item13.$item14.'><a href="books.html">Книги</a></li>
+                <li' . $item3.$item9.$item10.$item11.$item12.$item13.$item14.'>. $item<a href="books.html">Книги</a></li>
                 <li' . $item4 . '><a href="videos.html">Видео</a></li>
                 <li' . $item5 . '><a href="lexio.html">Лекции</a></li>
                 <li' . $item6 . '><a href="publications.html">Публикации</a></li>
