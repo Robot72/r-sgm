@@ -1,0 +1,32 @@
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Classes */
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout-reference {
+    border-left-color: #F1A539;
+}
+.link-block {
+    text-align: center;
+}
+.jumbotron {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.jumbotron p {
+    font-size: 18px;
+}
+.glyphicon-envelope {
+    color: #DBBA85;
+    font-size: 17px;
+}
+.top-thesis {    
+    text-align: center;
+}
