@@ -76,7 +76,39 @@ class Generator
                 array('url' => 'books', 'label' => 'Книги', 'active' => FALSE),
                 array('url' => '#', 'label' => 'Обида-брошюра', 'active' => FALSE),
             ));
+        } else if( !strcmp($uri, 'kratraya-biografiya') ) {
+            breadcrumbs(array(
+                $mainPage, 
+                array('url' => '#', 'label' => 'Краткая биография Орлова Ю.М.', 'active' => FALSE),
+            ));
+        } else if( !strcmp($uri, 'polnaya-biografia') ) {
+            breadcrumbs(array(
+                $mainPage, 
+                array('url' => '#', 'label' => 'Полная биография Орлова Ю.М.', 'active' => FALSE),
+            ));
+        } else if( !strcmp($uri, 'interviu-ot-2-marta-1999') ) {
+            breadcrumbs(array(
+                $mainPage, 
+                array('url' => 'publications', 'label' => 'Публикации', 'active' => FALSE),
+                array('url' => '#', 'label' => 'Саногенное мышление — философия XXI века', 'active' => TRUE),
+            ));
+        } else if( !strcmp($uri, '') ) {
+            breadcrumbs(array(
+                $mainPage, 
+                array('url' => '#', 'label' => 'Саногенное мышление в интернете', 'active' => FALSE),
+            ));
+        } else if( !strcmp($uri, '') ) {
+            breadcrumbs(array(
+                $mainPage, 
+                array('url' => '#', 'label' => '', 'active' => FALSE),
+            ));
+        } else if( !strcmp($uri, 'polnaya-biografia') ) {
+            breadcrumbs(array(
+                $mainPage, 
+                array('url' => '#', 'label' => '', 'active' => FALSE),
+            ));
         }
+        
     }
     
     public static function navbar($uri)
@@ -98,15 +130,19 @@ class Generator
         $item14 = !strcmp($uri, 'kak-berech-ljubov') ? $active : '' ;
         $item15 = !strcmp($uri, 'obida-broshura') ? $active : '' ;
         $item16 = !strcmp($uri, 'upravlenie-povedeniem-broshura') ? $active : '' ;
+        $item17 = !strcmp($uri, 'kratraya-biografiya') ? $active : '' ;
+        $item18 = !strcmp($uri, 'polnaya-biografiya') ? $active : '' ;
+        $item19 = !strcmp($uri, 'ssylki-na-sgm') ? $active : '' ;
+        $item20 = !strcmp($uri, 'filosofija-radosti-i-blagopoluchija') ? $active : '' ;
         $html = '<div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li' . $item1 . '><a href="index">Главная</a></li>
-                <li' . $item2 . '><a href="news">Рекомендуем</a></li>
+                <li' . $item1.$item17.$item18. '><a href="index">Главная</a></li>
+                <li' . $item2.$item19 . '><a href="news">Рекомендуем</a></li>
                 <li' . $item3.$item9.$item10.$item11.$item12.$item13.$item14.
                 $item15.$item16.'><a href="books">Книги</a></li>
                 <li' . $item4 . '><a href="videos">Видео</a></li>
                 <li' . $item5 . '><a href="lexio">Лекции</a></li>
-                <li' . $item6 . '><a href="publications">Публикации</a></li>
+                <li' . $item6.$item20. '><a href="publications">Публикации</a></li>
                 <li' . $item7 . '><a href="KursSGM">Занятия</a></li>
                 <li' . $item8 . '><a href="narodovlastie">СГМ и общество</a></li>
             </ul>                        
