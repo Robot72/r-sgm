@@ -1,6 +1,6 @@
 <?php
 
-class Generator
+class TemplateGenerator
 {
 
     public static function breadcrumbs($uri)
@@ -36,81 +36,81 @@ class Generator
             ));
         } else if( !strcmp($uri, 'obida-vina') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => 'books', 'label' => 'Книги', 'active' => FALSE),
                 array('url' => '#', 'label' => '"Обида. Вина"', 'active' => FALSE),
             ));
         } else if( !strcmp($uri, 'kak-berech-ljubov') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => 'books', 'label' => 'Книги', 'active' => FALSE),
                 array('url' => '#', 'label' => '"Как беречь любовь"', 'active' => FALSE),
             ));
         } else if( !strcmp($uri, 'sanogennoe-myshlenie') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => 'books', 'label' => 'Книги', 'active' => FALSE),
                 array('url' => '#', 'label' => '"Саногенное (оздоравливающее) мышление"', 'active' => FALSE),
             ));
         } else if( !strcmp($uri, 'iscelenie-filosofiej') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => 'books', 'label' => 'Книги', 'active' => FALSE),
                 array('url' => '#', 'label' => '"Исцеление философией"', 'active' => FALSE),
             ));
         } else if( !strcmp($uri, 'nauchenie-stanovlenie-cheloveka') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => 'books', 'label' => 'Книги', 'active' => FALSE),
                 array('url' => '#', 'label' => '"Научение. Становление человека"', 'active' => FALSE),
             ));
         } else if( !strcmp($uri, 'styd-zavist') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => 'books', 'label' => 'Книги', 'active' => FALSE),
                 array('url' => '#', 'label' => '"Стыд. Зависть"', 'active' => FALSE),
             ));
         } else if( !strcmp($uri, 'obida-broshura') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => 'books', 'label' => 'Книги', 'active' => FALSE),
                 array('url' => '#', 'label' => 'Обида-брошюра', 'active' => FALSE),
             ));
         } else if( !strcmp($uri, 'kratraya-biografiya') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => '#', 'label' => 'Краткая биография Орлова Ю.М.', 'active' => FALSE),
             ));
         } else if( !strcmp($uri, 'polnaya-biografia') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => '#', 'label' => 'Полная биография Орлова Ю.М.', 'active' => FALSE),
             ));
         } else if( !strcmp($uri, 'interviu-ot-2-marta-1999') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => 'publications', 'label' => 'Публикации', 'active' => FALSE),
                 array('url' => '#', 'label' => 'Саногенное мышление — философия XXI века', 'active' => TRUE),
             ));
         } else if( !strcmp($uri, '') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => '#', 'label' => 'Саногенное мышление в интернете', 'active' => FALSE),
             ));
         } else if( !strcmp($uri, '') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => '#', 'label' => '', 'active' => FALSE),
             ));
         } else if( !strcmp($uri, 'polnaya-biografia') ) {
             breadcrumbs(array(
-                $mainPage, 
+                $mainPage,
                 array('url' => '#', 'label' => '', 'active' => FALSE),
             ));
         }
-        
+
     }
-    
+
     public static function navbar($uri)
     {
         $active =  ' class="active"';
@@ -145,7 +145,7 @@ class Generator
                 <li' . $item6.$item20. '><a href="publications">Публикации</a></li>
                 <li' . $item7 . '><a href="KursSGM">Занятия</a></li>
                 <li' . $item8 . '><a href="narodovlastie">СГМ и общество</a></li>
-            </ul>                        
+            </ul>
         </div><!--/.nav-collapse -->';
         echo $html;
     }
