@@ -6,7 +6,9 @@ $uri = $_SERVER['REQUEST_URI'];
 if( empty($uri)  ) {
     die();
 } else {
-    $uri = end(explode('/', $uri));
+    $tmpUri = explode('/', $uri);
+    $uri = end($tmpUri);
+//print_r($uri);die;
 }
 
 include_once('vendor/breadcrumbs_helper.php');
